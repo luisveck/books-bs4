@@ -7,3 +7,14 @@ body {
 .navbar-fixed {
     
 }
+
+.navbar {
+	background-color:#3c4756;
+}
+.btn{
+	background-color: white;
+}
+.col-md-12{
+	background-color:white;
+	
+}
