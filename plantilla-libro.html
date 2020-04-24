@@ -41,7 +41,7 @@
 
     <div class="container-fluid mt-5 pt-4">
         <div class="row">
-            <div class="col-sm-12 col-md-3 col-lg-3">
+            <div class="col-sm-12 col-md-3 col-lg-3 d-none d-sm-none d-md-block">
                 <a href="#" class="btn btn-primary btn-block">Categoría: Example</a>
                 <div class="row no-gutters my-2">
                     <div class="col-4"><img src="https://via.placeholder.com/110x170" class="img-fluid" alt=""></div>
@@ -64,44 +64,104 @@
                     <div class="col-4"><img src="https://via.placeholder.com/110x170" class="img-fluid" alt=""></div>
                 </div>
             </div>
+
             <div class="col-sm-12 col-md-6 col-lg-6">
-                <div class="card">
+                <div class="card rounded-0">
                     <div class="card-body">
                         <div class="row">
                             <div class="col-sm-12 col-md-4 col-lg-4">
                                 <img src="https://via.placeholder.com/364x560" class="img-fluid" alt="">
-                                <div class="d-block my-2 text-center">
+                                <div class="d-block my-2 text-center my-4">
                                     <a href="#" class="btn btn-primary">EPUB</a>
                                     <a href="#" class="btn btn-primary">PDF</a>
                                 </div>
-                                <a href="#"class="btn btn-danger btn-block">Reportar link caido</a>
-                                <a href="#"class="btn btn-secondary btn-block">Reportar error</a>
+                                <a href="#" class="btn btn-danger btn-block">Reportar link caido</a>
+                                <a href="#" class="btn btn-secondary btn-block">Reportar error</a>
                             </div>
                             <div class="col-sm-12 col-md-4 col-lg-8">
                                 <h2>Title of Book</h2>
                                 <p>Author: <a href="#" class="btn btn-primary btn-sm">Author name</a></p>
-                                <p>Generos: <a href="#" class="btn btn-primary btn-sm">Genero 1</a> <a href="#" class="btn btn-primary btn-sm">Genero 2</a></p>
+                                <p>Generos: <a href="#" class="btn btn-primary btn-sm">Genero 1</a> <a href="#"
+                                        class="btn btn-primary btn-sm">Genero 2</a></p>
                                 <div class="d-block">
                                     <a href="#" class="btn btn-primary">Descargar EPUB</a>
                                     <a href="#" class="btn btn-outline-primary">Descargar PDF</a>
                                 </div>
-                                <p class="my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis non officia ab libero commodi veritatis eius beatae consectetur. Tempora accusantium magni totam culpa officiis error! Quod at sunt laudantium expedita deleniti dolorem facere dolore. Molestias enim alias soluta, natus necessitatibus aliquid nesciunt error explicabo dolorum rerum voluptas illo eaque at cumque voluptatem animi, delectus, magnam maxime eos? Veniam, accusantium. Neque, voluptates modi minima assumenda molestias, totam dignissimos dicta porro odit, adipisci iusto doloremque temporibus dolorum corporis voluptas repellendus tenetur aspernatur!</p>
+                                <p class="my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis non
+                                    officia ab libero commodi veritatis eius beatae consectetur. Tempora accusantium
+                                    magni totam culpa officiis error! Quod at sunt laudantium expedita deleniti dolorem
+                                    facere dolore. Molestias enim alias soluta, natus necessitatibus aliquid nesciunt
+                                    error explicabo dolorum rerum voluptas illo eaque at cumque voluptatem animi,
+                                    delectus, magnam maxime eos? Veniam, accusantium. Neque, voluptates modi minima
+                                    assumenda molestias, totam dignissimos dicta porro odit, adipisci iusto doloremque
+                                    temporibus dolorum corporis voluptas repellendus tenetur aspernatur!</p>
+                                <div class="text-center">
+                                    <p>¡Puntúa este libro!</p>
+                                    <div class="text-warning">
+                                        <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                            class="fa fa-star"></i><i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <h4 class="my-4 text-center">Comentarios</h4>
+
+                        <!--Commentarios-->
+                        <div class="bg-dark card p-4">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <img src="https://via.placeholder.com/120x120" class="img rounded-circle img-fluid" />
+                                <h6 class="text-center my-2 text-white">Luis A.</h6>
+                            </div>
+                            <div class="col-md-10">
+                                <div class="clearfix"></div>
+                                <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nostrum quidem, quisquam magni cumque laudantium exercitationem excepturi autem expedita aut.</p>
+                                <p>
+                                    <a class="text-white float-right btn btn-secondary ml-2">Responder</a>
+                                </p>
                             </div>
                         </div>
+                        <div class="bg-secondary card card-inner my-4">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <img src="https://via.placeholder.com/120x120"
+                                            class="img rounded-circle img-fluid" />
+                                        <h6 class="text-center my-2 text-white">Rachel B.</h6>
+                                    </div>
+                                    <div class="col-md-10">
+                                        <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa expedita cupiditate quos voluptatum? Numquam, explicabo.</p>
+                                        <p>
+                                            <a class="text-white float-right btn btn-dark ml-2P">Responder</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Commentarios-->
+
                     </div>
                 </div>
             </div>
             <div class="col-sm-12 col-md-3 col-lg-3">
-                <div class="d-flex justify-content-center">
-                    <a href="#" class="p-2" data-toggle="tooltip" data-placement="bottom" title="Lo quiero leer"><i
-                            class="fab fa-readme fa-lg"></i></a>
-                    <a href="#" class="p-2" data-toggle="tooltip" data-placement="bottom" title="Lo estoy leyendo"><i
-                            class="fas fa-bookmark fa-lg"></i></a>
-                    <a href="#" class="p-2" data-toggle="tooltip" data-placement="bottom" title="Lo tengo"><i
-                            class="fas fa-folder-open fa-lg"></i></a>
-                    <a href="#" class="p-2" data-toggle="tooltip" data-placement="bottom" title="Lo he leido"><i
-                            class="fas fa-check fa-lg"></i></a>
+                <div class="card rounded-0">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-center">
+                            <a href="#" class="p-2" data-toggle="tooltip" data-placement="bottom"
+                                title="Lo quiero leer"><i class="fab fa-readme fa-lg"></i></a>
+                            <a href="#" class="p-2" data-toggle="tooltip" data-placement="bottom"
+                                title="Lo estoy leyendo"><i class="fas fa-bookmark fa-lg"></i></a>
+                            <a href="#" class="p-2" data-toggle="tooltip" data-placement="bottom" title="Lo tengo"><i
+                                    class="fas fa-folder-open fa-lg"></i></a>
+                            <a href="#" class="p-2" data-toggle="tooltip" data-placement="bottom" title="Lo he leido"><i
+                                    class="fas fa-check fa-lg"></i></a>
+                        </div>
+                    </div>
                 </div>
+
             </div>
         </div>
     </div>
