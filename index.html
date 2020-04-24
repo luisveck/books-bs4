@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- Bootstrap CSS -->
-  
+
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 
 
@@ -19,62 +19,143 @@
   <div class="container-fluid">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <a class="navbar-brand" href="index.html">LOGO</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav ml-auto">
-                <a class="nav-item nav-link" href="donar.html">Donar</a>
-                <a class="nav-item nav-link" href="como-descargar.html">¿Como descargar?</a>
-                <a class="nav-item nav-link" href="pedidos.html">Pedidos</a>
-                <a class="nav-item nav-link" href="libros.html">Libros</a>
-                <a class="nav-item nav-link" href="ingresar.html">Ingresar</a>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Buscar libro..."
-                        aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
-                </form>
-            </div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+          <a class="nav-item nav-link" href="donar.html">Donar</a>
+          <a class="nav-item nav-link" href="como-descargar.html">¿Como descargar?</a>
+          <a class="nav-item nav-link" href="pedidos.html">Pedidos</a>
+          <a class="nav-item nav-link" href="libros.html">Libros</a>
+          <a class="nav-item nav-link" href="ingresar.html">Ingresar</a>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Buscar libro..." aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+          </form>
         </div>
+      </div>
     </nav>
-</div>
+  </div>
 
-    <div class="container-fluid my-5">
-      <div class="card rounded-0">
-        <div class="card-body">
-          <nav>
-            <div class="row nav nav-tabs" id="nav-tab" role="tablist">
-              <div class="col-4"><a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab"
-                  href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Autores</a>
+  <div class="container-fluid my-4">
+    <div class="card">
+      <div class="card-body">
+        <ul class="nav nav-pills nav-fill">
+          <li class="nav-item">
+            <a class="nav-link active" id="autores-tab" data-toggle="tab" aria-controls="autores" aria-selected="true"
+              href="#autores" role="tab">Autores</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="generos-tab" data-toggle="tab" aria-controls="generos" aria-selected="false"
+              href="#generos" role="tab">Generos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="series-tab" data-toggle="tab" aria-controls="series" aria-selected="false"
+              href="#series" role="tab">Series / Sagas</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="card-body">
+        <!-- Tab panes -->
+        <div class="tab-content">
+          <div class="tab-pane active" id="autores" role="tabpanel" aria-labelledby="autores-tab">
+            <div class="text-center">
+              <a href="#">A</a> -
+              <a href="#">B</a> -
+              <a href="#">C</a> -
+              <a href="#">D</a> -
+              <a href="#">E</a> -
+              <a href="#">F</a> -
+              <a href="#">G</a> -
+              <a href="#">H</a> -
+              <a href="#">I</a> -
+              <a href="#">J</a> -
+              <a href="#">K</a> -
+              <a href="#">L</a> -
+              <a href="#">M</a> -
+              <a href="#">N</a> -
+              <a href="#">O</a> -
+              <a href="#">P</a> -
+              <a href="#">Q</a> -
+              <a href="#">R</a> -
+              <a href="#">S</a> -
+              <a href="#">T</a> -
+              <a href="#">U</a> -
+              <a href="#">V</a> -
+              <a href="#">W</a> -
+              <a href="#">X</a> -
+              <a href="#">Y</a> -
+              <a href="#">Z</a>
+            </div>
+          </div>
+          <div class="tab-pane" id="generos" role="tabpanel" aria-labelledby="generos-tab">
+            <div class="row">
+              <div class="col-ms-12 col-md-3 col-lg-3 text-center">
+                <a href="#" class="d-block">Lorem ipsum dolor</a>
+                <a href="#" class="d-block">Lorem ipsum dolor</a>
+                <a href="#" class="d-block">Lorem ipsum dolor</a>
+                <a href="#" class="d-block">Lorem ipsum dolor</a>
               </div>
-              <div class="col-4"><a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile"
-                  role="tab" aria-controls="nav-profile" aria-selected="false">Generos</a></div>
-              <div class="col-4"><a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact"
-                  role="tab" aria-controls="nav-contact" aria-selected="false">Series
-                  / Sagas</a></div>
-            </div>
-          </nav>
-          <div class="tab-content" id="nav-tabContent">
-            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-              <div class="text-center p-4">
-                <span>A - B - C - D - E - F - G - H - I - J - K - L - M - N - O - P - Q - R - S - T - U - V
-                  - W - X - Y - Z</span>
+              <div class="col-ms-12 col-md-3 col-lg-3 text-center">
+                <a href="#" class="d-block">Lorem ipsum dolor</a>
+                <a href="#" class="d-block">Lorem ipsum dolor</a>
+                <a href="#" class="d-block">Lorem ipsum dolor</a>
+                <a href="#" class="d-block">Lorem ipsum dolor</a>
+              </div>
+              <div class="col-ms-12 col-md-3 col-lg-3 text-center">
+                <a href="#" class="d-block">Lorem ipsum dolor</a>
+                <a href="#" class="d-block">Lorem ipsum dolor</a>
+                <a href="#" class="d-block">Lorem ipsum dolor</a>
+                <a href="#" class="d-block">Lorem ipsum dolor</a>
+              </div>
+              <div class="col-ms-12 col-md-3 col-lg-3 text-center">
+                <a href="#" class="d-block">Lorem ipsum dolor</a>
+                <a href="#" class="d-block">Lorem ipsum dolor</a>
+                <a href="#" class="d-block">Lorem ipsum dolor</a>
+                <a href="#" class="d-block">Lorem ipsum dolor</a>
               </div>
             </div>
-            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-              Genero List
-            </div>
-            <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">...
-              <span>A - B - C - D - E - F - G - H - I - J - K - L - M - N - O - P - Q - R - S - T - U - V - W
-                - X - Y - Z</span>
+          </div>
+          <div class="tab-pane" id="series" role="tabpanel" aria-labelledby="series-tab">
+            <div class="text-center">
+              <a href="#">A</a> -
+              <a href="#">B</a> -
+              <a href="#">C</a> -
+              <a href="#">D</a> -
+              <a href="#">E</a> -
+              <a href="#">F</a> -
+              <a href="#">G</a> -
+              <a href="#">H</a> -
+              <a href="#">I</a> -
+              <a href="#">J</a> -
+              <a href="#">K</a> -
+              <a href="#">L</a> -
+              <a href="#">M</a> -
+              <a href="#">N</a> -
+              <a href="#">O</a> -
+              <a href="#">P</a> -
+              <a href="#">Q</a> -
+              <a href="#">R</a> -
+              <a href="#">S</a> -
+              <a href="#">T</a> -
+              <a href="#">U</a> -
+              <a href="#">V</a> -
+              <a href="#">W</a> -
+              <a href="#">X</a> -
+              <a href="#">Y</a> -
+              <a href="#">Z</a>
             </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
+  </div>
 
-    <div class="container-fluid">
+  <div class="container-fluid">
     <div class="text-center my-4">
 
       <h2>Ultimas novedades</h2>
@@ -291,7 +372,7 @@
 
     </div>
 
-  <!--Termino de la columna libros-->
+    <!--Termino de la columna libros-->
 
     <div class="text-center my-4">
       <a href="#" class="btn btn-primary">Ver más</a>
@@ -302,16 +383,16 @@
     <div class="container card rounded-0 bg-light p-4">
       <div class="row">
         <div class="col-sm-12 col-md-4 col-lg-4 text-center">
-          <h3>37032</h3>
-          <p>Libros disponibles</p>
+          <h3 class="display-4">37032</h3>
+          <p class="lead">Libros disponibles</p>
         </div>
         <div class="col-sm-12 col-md-4 col-lg-4 text-center">
-          <h3>14271</h3>
-          <p>Autores</p>
+          <h3 class="display-4">14271</h3>
+          <p class="lead">Autores</p>
         </div>
         <div class="col-sm-12 col-md-4 col-lg-4 text-center">
-          <h3>2971</h3>
-          <p>Series / Sagas</p>
+          <h3 class="display-4">2971</h3>
+          <p class="lead">Series / Sagas</p>
         </div>
       </div>
     </div>
@@ -535,7 +616,7 @@
 
     </div>
 
-  <!--Termino de la columna libros-->
+    <!--Termino de la columna libros-->
 
     <div class="text-center my-4">
       <a href="#" class="btn btn-primary">Ver más</a>
@@ -758,7 +839,7 @@
 
     </div>
 
-  <!--Termino de la columna libros-->
+    <!--Termino de la columna libros-->
 
     <div class="text-center my-4">
       <a href="#" class="btn btn-primary">Ver más</a>
@@ -982,7 +1063,7 @@
 
     </div>
 
-  <!--Termino de la columna libros-->
+    <!--Termino de la columna libros-->
 
     <div class="text-center my-4">
       <a href="#" class="btn btn-primary">Ver más</a>
@@ -990,7 +1071,7 @@
 
 
     <div class="w-100 text-center my-4  ">
-      <a href="contacto.html" class="lead text-decoration-none">Contacto</a> | 
+      <a href="contacto.html" class="lead text-decoration-none">Contacto</a> |
       <a href="DMCA.html" class="lead text-decoration-none">DMCA</a>
     </div>
 
@@ -998,9 +1079,11 @@
 
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 
-  <script src="/assets/js/jquery-3.4.1.slim.min.js"></script>
-  <script src="/assets/js/popper.min.js"></script>
-  <script src="/assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/jquery-3.4.1.slim.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+
+  <script src="assets/js/custom.js"></script>
 
 
 
