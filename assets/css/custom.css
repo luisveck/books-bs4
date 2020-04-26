@@ -1,0 +1,41 @@
+@media (max-width: 768px) {
+    .navbar-collapse {
+        position: absolute;
+        top: 50px;
+        right: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        width: 50%;
+    }
+    .navbar-collapse.collapsing {
+        height: auto;
+        transition: right 0s ease;
+        left: 50%;
+    }
+    .navbar-collapse.show {
+        right: 0;
+        transition: right 0s ease;
+    }
+
+    .btn-search {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
