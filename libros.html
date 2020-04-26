@@ -8,140 +8,150 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
     <link rel="stylesheet" href="assets/css/all.css">
-
     <title>Home - Bootstrap 4 Books</title>
 </head>
 
 <body>
-    <div class="container-fluid">
+    <div class="container-fluid fixed-top">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="index.html">LOGO</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav ml-auto">
-                    <a class="nav-item nav-link" href="donar.html">Donar</a>
-                    <a class="nav-item nav-link" href="como-descargar.html">¿Como descargar?</a>
-                    <a class="nav-item nav-link" href="pedidos.html">Pedidos</a>
-                    <a class="nav-item nav-link" href="libros.html">Libros</a>
-                    <a class="nav-item nav-link" href="ingresar.html">Ingresar</a>
-                    <form class="form-inline my-2 my-lg-0">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Buscar libro..."
-                            aria-label="Search">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
-                    </form>
-                </div>
-            </div>
+          <a class="navbar-brand" href="index.html">LOGO</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse bg-dark" id="navbarNavAltMarkup">
+            <ul class="navbar-nav ml-auto text-justify">
+              <li class="nav-item">
+                <a class="nav-link" href="donar.html">Donar<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="como-descargar.html">¿Como Descargar?</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pedidos.html">Pedidos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="libros.html">Libros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="ingresar.html">Ingresar</a>
+              </li>
+              <form class="form-group has-search my-2 my-lg-0">
+                <span class="fa fa-search form-control-feedback"></span>
+                <input type="text" class="form-control" placeholder="Buscar libro...">
+              </form>
+            </ul>
+          </div>
         </nav>
+      </div>
+
+    <div class="container-fluid my-5 pt-5">
+        <div class="row">
+            <div class="col-sm-12 col-md-3 col-lg-3 my-3">
+                <!--Item Libro-->
+                <div class="card">
+                    <div class="row no-gutters">
+                        <div class="col-auto">
+                            <img src="https://via.placeholder.com/110x170" class="img-fluid" alt="">
+                        </div>
+                        <div class="col pt-3">
+                            <div class="card-block px-2">
+                                <a href="plantilla-libro.html">
+                                    <h4 class="card-title lead">Title of Book</h4>
+                                </a>
+                                <a href="plantila-autor.html"><small>
+                                        <p>Author name</p>
+                                    </small></a>
+                                <small>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit eius soluta
+                                        dignissimos excepturi aperiam quam.</p>
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Item Libro-->
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-3 my-3">
+                <!--Item Libro-->
+                <div class="card">
+                    <div class="row no-gutters">
+                        <div class="col-auto">
+                            <img src="https://via.placeholder.com/110x170" class="img-fluid" alt="">
+                        </div>
+                        <div class="col pt-3">
+                            <div class="card-block px-2">
+                                <a href="plantilla-libro.html">
+                                    <h4 class="card-title lead">Title of Book</h4>
+                                </a>
+                                <a href="plantila-autor.html"><small>
+                                        <p>Author name</p>
+                                    </small></a>
+                                <small>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit eius soluta
+                                        dignissimos excepturi aperiam quam.</p>
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Item Libro-->
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-3 my-3">
+                <!--Item Libro-->
+                <div class="card">
+                    <div class="row no-gutters">
+                        <div class="col-auto">
+                            <img src="https://via.placeholder.com/110x170" class="img-fluid" alt="">
+                        </div>
+                        <div class="col pt-3">
+                            <div class="card-block px-2">
+                                <a href="plantilla-libro.html">
+                                    <h4 class="card-title lead">Title of Book</h4>
+                                </a>
+                                <a href="plantila-autor.html"><small>
+                                        <p>Author name</p>
+                                    </small></a>
+                                <small>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit eius soluta
+                                        dignissimos excepturi aperiam quam.</p>
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Item Libro-->
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-3 my-3">
+                <!--Item Libro-->
+                <div class="card">
+                    <div class="row no-gutters">
+                        <div class="col-auto">
+                            <img src="https://via.placeholder.com/110x170" class="img-fluid" alt="">
+                        </div>
+                        <div class="col pt-3">
+                            <div class="card-block px-2">
+                                <a href="plantilla-libro.html">
+                                    <h4 class="card-title lead">Title of Book</h4>
+                                </a>
+                                <a href="plantila-autor.html"><small>
+                                        <p>Author name</p>
+                                    </small></a>
+                                <small>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit eius soluta
+                                        dignissimos excepturi aperiam quam.</p>
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Item Libro-->
+            </div>
+        </div>
     </div>
-
-    <div class="container-fluid my-5">
-        <div class="row">
-            <div class="col-sm-12 col-md-3 col-lg-3 my-3">
-                <!--Item Libro-->
-                <div class="card">
-                    <div class="row no-gutters">
-                        <div class="col-auto">
-                            <img src="https://via.placeholder.com/110x170" class="img-fluid" alt="">
-                        </div>
-                        <div class="col pt-3">
-                            <div class="card-block px-2">
-                                <a href="plantilla-libro.html">
-                                    <h4 class="card-title lead">Title of Book</h4>
-                                </a>
-                                <a href="plantila-autor.html"><small>
-                                        <p>Author name</p>
-                                    </small></a>
-                                <small>
-                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit eius soluta
-                                        dignissimos excepturi aperiam quam.</p>
-                                </small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--Item Libro-->
-            </div>
-            <div class="col-sm-12 col-md-3 col-lg-3 my-3">
-                <!--Item Libro-->
-                <div class="card">
-                    <div class="row no-gutters">
-                        <div class="col-auto">
-                            <img src="https://via.placeholder.com/110x170" class="img-fluid" alt="">
-                        </div>
-                        <div class="col pt-3">
-                            <div class="card-block px-2">
-                                <a href="plantilla-libro.html">
-                                    <h4 class="card-title lead">Title of Book</h4>
-                                </a>
-                                <a href="plantila-autor.html"><small>
-                                        <p>Author name</p>
-                                    </small></a>
-                                <small>
-                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit eius soluta
-                                        dignissimos excepturi aperiam quam.</p>
-                                </small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--Item Libro-->
-            </div>
-            <div class="col-sm-12 col-md-3 col-lg-3 my-3">
-                <!--Item Libro-->
-                <div class="card">
-                    <div class="row no-gutters">
-                        <div class="col-auto">
-                            <img src="https://via.placeholder.com/110x170" class="img-fluid" alt="">
-                        </div>
-                        <div class="col pt-3">
-                            <div class="card-block px-2">
-                                <a href="plantilla-libro.html">
-                                    <h4 class="card-title lead">Title of Book</h4>
-                                </a>
-                                <a href="plantila-autor.html"><small>
-                                        <p>Author name</p>
-                                    </small></a>
-                                <small>
-                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit eius soluta
-                                        dignissimos excepturi aperiam quam.</p>
-                                </small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--Item Libro-->
-            </div>
-            <div class="col-sm-12 col-md-3 col-lg-3 my-3">
-                <!--Item Libro-->
-                <div class="card">
-                    <div class="row no-gutters">
-                        <div class="col-auto">
-                            <img src="https://via.placeholder.com/110x170" class="img-fluid" alt="">
-                        </div>
-                        <div class="col pt-3">
-                            <div class="card-block px-2">
-                                <a href="plantilla-libro.html">
-                                    <h4 class="card-title lead">Title of Book</h4>
-                                </a>
-                                <a href="plantila-autor.html"><small>
-                                        <p>Author name</p>
-                                    </small></a>
-                                <small>
-                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit eius soluta
-                                        dignissimos excepturi aperiam quam.</p>
-                                </small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--Item Libro-->
-            </div>
-        </div>
-    </div><!--End columna libros-->
+    <!--End columna libros-->
 
     <div class="container-fluid">
         <div class="row">
@@ -246,7 +256,8 @@
                 <!--Item Libro-->
             </div>
         </div>
-    </div> <!--End columna libros-->
+    </div>
+    <!--End columna libros-->
 
 
     <div class="container-fluid">
@@ -352,7 +363,8 @@
                 <!--Item Libro-->
             </div>
         </div>
-    </div><!--End columna libros-->
+    </div>
+    <!--End columna libros-->
 
     <div class="container-fluid">
         <div class="row">
@@ -457,7 +469,8 @@
                 <!--Item Libro-->
             </div>
         </div>
-    </div><!--End columna libros-->
+    </div>
+    <!--End columna libros-->
 
     <div class="container-fluid">
         <div class="row">
@@ -562,7 +575,8 @@
                 <!--Item Libro-->
             </div>
         </div>
-    </div><!--End columna libros-->
+    </div>
+    <!--End columna libros-->
 
     <div class="container-fluid">
         <div class="row">
@@ -667,7 +681,8 @@
                 <!--Item Libro-->
             </div>
         </div>
-    </div><!--End columna libros-->
+    </div>
+    <!--End columna libros-->
 
 
 
@@ -675,17 +690,17 @@
 
     <nav aria-label="Page navigation example">
         <ul class="pagination justify-content-center">
-          <li class="page-item disabled">
-            <a class="page-link" href="#" tabindex="-1">Previous</a>
-          </li>
-          <li class="page-item"><a class="page-link" href="#">1</a></li>
-          <li class="page-item"><a class="page-link" href="#">2</a></li>
-          <li class="page-item"><a class="page-link" href="#">3</a></li>
-          <li class="page-item">
-            <a class="page-link" href="#">Next</a>
-          </li>
+            <li class="page-item disabled">
+                <a class="page-link" href="#" tabindex="-1">Previous</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+                <a class="page-link" href="#">Next</a>
+            </li>
         </ul>
-      </nav>
+    </nav>
 
 
     <!-- Optional JavaScript -->

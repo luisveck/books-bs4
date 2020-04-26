@@ -8,6 +8,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
     <link rel="stylesheet" href="assets/css/all.css">
 
     <title>Home - Bootstrap 4 Books</title>
@@ -15,31 +16,40 @@
 
 <body>
 
-    <div class="container-fluid">
+    <div class="container-fluid fixed-top">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="index.html">LOGO</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav ml-auto">
-                    <a class="nav-item nav-link" href="donar.html">Donar</a>
-                    <a class="nav-item nav-link" href="como-descargar.html">¿Como descargar?</a>
-                    <a class="nav-item nav-link" href="pedidos.html">Pedidos</a>
-                    <a class="nav-item nav-link" href="libros.html">Libros</a>
-                    <a class="nav-item nav-link" href="ingresar.html">Ingresar</a>
-                    <form class="form-inline my-2 my-lg-0">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Buscar libro..."
-                            aria-label="Search">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
-                    </form>
-                </div>
-            </div>
+          <a class="navbar-brand" href="index.html">LOGO</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse bg-dark" id="navbarNavAltMarkup">
+            <ul class="navbar-nav ml-auto text-justify">
+              <li class="nav-item">
+                <a class="nav-link" href="donar.html">Donar<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="como-descargar.html">¿Como Descargar?</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pedidos.html">Pedidos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="libros.html">Libros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="ingresar.html">Ingresar</a>
+              </li>
+              <form class="form-group has-search my-2 my-lg-0">
+                <span class="fa fa-search form-control-feedback"></span>
+                <input type="text" class="form-control" placeholder="Buscar libro...">
+              </form>
+            </ul>
+          </div>
         </nav>
-    </div>
+      </div>
 
-    <div class="container-fluid mt-5 pt-4">
+    <div class="container-fluid my-5 pt-5">
         <div class="row">
             <div class="col-sm-12 col-md-3 col-lg-3 d-none d-sm-none d-md-block">
                 <a href="#" class="btn btn-primary btn-block">Categoría: Example</a>
@@ -113,7 +123,8 @@
                             <div class="card-body">
                                 <div class="row">
                                     <div class="col-md-2 text-center">
-                                        <img src="https://via.placeholder.com/120x120" class="img rounded-circle img-fluid" />
+                                        <img src="https://via.placeholder.com/120x120"
+                                            class="img rounded-circle img-fluid" />
                                         <p class="text-secondary text-center my-2">Hace 12 minutos</p>
                                     </div>
                                     <div class="col-md-10">
@@ -121,13 +132,17 @@
                                             <a class="float-left font-weight-bold" href="#">Jason Stone</a>
                                         </p>
                                         <div class="clearfix"></div>
-                                        <p>Lorem Ipsum is simply dummy text of the pr make but also the leap into electronic
-                                            typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
-                                            release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-                                            publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                        <p>Lorem Ipsum is simply dummy text of the pr make but also the leap into
+                                            electronic
+                                            typesetting, remaining essentially unchanged. It was popularised in the
+                                            1960s with the
+                                            release of Letraset sheets containing Lorem Ipsum passages, and more
+                                            recently with desktop
+                                            publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                                        </p>
                                         <p>
                                             <a class="float-right btn btn-dark ml-2 text-white my-2">Reply</a>
-                                            
+
                                         </p>
                                     </div>
                                 </div>
@@ -135,19 +150,24 @@
                                     <div class="card-body">
                                         <div class="row">
                                             <div class="col-md-2 text-center">
-                                                <img src="https://via.placeholder.com/120x120" class="img rounded-circle img-fluid" />
+                                                <img src="https://via.placeholder.com/120x120"
+                                                    class="img rounded-circle img-fluid" />
                                                 <p class="text-secondary text-center my-2">Hace 10 minutos</p>
                                             </div>
                                             <div class="col-md-10">
                                                 <a class="font-weight-bold" href="#">Admin</a>
-                                                <p>Lorem Ipsum is simply dummy text of the pr make but also the leap into electronic
-                                                    typesetting, remaining essentially unchanged. It was popularised in the 1960s with
-                                                    the release of Letraset sheets containing Lorem Ipsum passages, and more recently
-                                                    with desktop publishing software like Aldus PageMaker including versions of Lorem
+                                                <p>Lorem Ipsum is simply dummy text of the pr make but also the leap
+                                                    into electronic
+                                                    typesetting, remaining essentially unchanged. It was popularised in
+                                                    the 1960s with
+                                                    the release of Letraset sheets containing Lorem Ipsum passages, and
+                                                    more recently
+                                                    with desktop publishing software like Aldus PageMaker including
+                                                    versions of Lorem
                                                     Ipsum.</p>
                                                 <p>
                                                     <a class="float-right btn btn-dark ml-2 text-white my-2">Reply</a>
-                                        
+
                                                 </p>
                                             </div>
                                         </div>
